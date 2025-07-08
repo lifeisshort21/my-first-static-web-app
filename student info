@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #2e86c1;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 30px;
+        }
+
+        .student-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .student-card h2 {
+            color: #2e86c1;
+        }
+
+        .student-card p {
+            margin: 5px 0;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #2e86c1;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Student Information Portal</h1>
+</header>
+
+<main>
+    <div class="student-card">
+        <h2>Harpreet Hansra</h2>
+        <p><strong>Student ID:</strong> A00200286</p>
+        <p><strong>Program:</strong> Computer Networking & Tech Support</p>
+        <p><strong>Email:</strong> harpreethansra05@gmail.com</p>
+    </div>
+
+    <div class="student-card">
+        <h2>John Smith</h2>
+        <p><strong>Student ID:</strong> 87654321</p>
+        <p><strong>Program:</strong> Software Engineering</p>
+        <p><strong>Email:</strong> johnsmith@example.com</p>
+    </div>
+</main>
+
+<footer>
+    &copy; 2025 Student Web App | All rights reserved
+</footer>
+
+</body>
+</html>
